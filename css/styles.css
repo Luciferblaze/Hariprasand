@@ -31,8 +31,8 @@ h3{
     background-color: #C9EEFF;
     text-align: center;
     position: relative;
-    padding: 100px 0px 0px 0px;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
 }
 
 .middle{
@@ -58,20 +58,25 @@ hr{
     padding: 30px 0 20px;
 
 }
+.mountain{
+    margin: 0px;
+    padding: auto auto 0px auto;
+}
 
-.top-cloud{
-    position: absolute;
-    right: 250px;
+.sun{
+    position: relative;
+    left: 250px;
     top: 50px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 350px;
-    margin-left: 5px;
+    left: 200px;
 }
 .side-cloud{
     position: absolute;
+    right: 250px;
+    margin-right: 0px;
 }
 .web-gif{
     float: left;
@@ -84,9 +89,10 @@ hr{
 }
 .Exp-row{
     width: 150%;
-    text-align: center;
     padding-right: 250px;
-
+}
+#Exp-table{
+    margin-right: 50px;
 }
 #resume{
     color: #2980b9;
